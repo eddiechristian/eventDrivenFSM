@@ -1,6 +1,6 @@
 //! The reusable FSM mechanism: Listing 1 as a Rust module.
 //!
-//! This is the same code as Part 1 of `v1.rs`, with the two keyboard-specific
+//! This is the same code as Part 1 of `../v1/main.rs`, with the two keyboard-specific
 //! names replaced by placeholders:
 //!
 //!   `M` = the machine type (v1: `Keyboard`)

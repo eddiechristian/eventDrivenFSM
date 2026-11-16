@@ -126,7 +126,7 @@ impl Keyboard {
 // Part 3: using it
 // ---------------------------------------------------------------------------
 
-pub fn run() {
+fn main() {
     let mut keyboard = Keyboard::new();
 
     // `initial` ignores its event, so it does not matter which one we pass.

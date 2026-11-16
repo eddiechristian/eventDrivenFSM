@@ -1,4 +1,4 @@
-//! Version 2: with generics. Read `v1.rs` first.
+//! Version 2: with generics. Read `../v1/main.rs` first.
 //!
 //! In v1 the FSM mechanism (`state`, `dispatch`, `tran`) is written inside
 //! `Keyboard`, so a second machine would have to copy it. Here the mechanism
@@ -11,7 +11,7 @@ pub mod keyboard;
 use fsm::Machine;
 use keyboard::{KeyEvent, Keyboard};
 
-pub fn run() {
+fn main() {
     let mut keyboard = Keyboard::new();
 
     // `initial` ignores its event, so it does not matter which one we pass.
